@@ -11,14 +11,6 @@ import java.util.Optional;
 public class UserService {
     private final UserRepository repo;
 
-    public UserService(UserRepository repo) {
-        this.repo = repo;
-    }
-
-    public List<User> getAll() {
-        return List.of();
-    }
-
     public User save(User user) {
         return repo.save(user);
     }
