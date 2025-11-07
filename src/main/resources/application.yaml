@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demogit
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_db
+    username: root
+    password: Dp17103919@
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
